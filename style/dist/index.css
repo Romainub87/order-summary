@@ -1,8 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: fixed url(../images/pattern-background-desktop.svg);
-  background-size: cover;
+  background: url(../images/pattern-background-mobile.svg) #e0e8ff top center/100% 50% no-repeat fixed;
   font-family: Red Hat Display;
 }
 body .dev {
