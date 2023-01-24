@@ -12,6 +12,10 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="style/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Red+Hat+Display"
+    />
     <title>Frontend Mentor | Order summary card</title>
   </head>
   <body>
@@ -24,15 +28,42 @@
           any device anywhere you like!
         </div>
         <div class="article">
-          <div class="text-article">
-            <span class="annual">Annual Plan</span>
-            <span class="price">$59.99/year</span>
+          <div class="img-text">
+            <img
+              src="images/icon-music.svg"
+              width="40"
+              alt="music"
+              class="music-img"
+            />
+            <div class="text-article">
+              <span class="annual">Annual Plan</span>
+              <span class="price">$59.99/year</span>
+            </div>
           </div>
-          <div class="change">Change</div>
+
+          <a class="change" href="#">Change</a>
         </div>
-        <button class="bouton-pay">Proceed to Payment</button>
-        <button class="cancel">Cancel Order</button>
+        <div class="boutons">
+          <button class="bouton-pay">Proceed to Payment</button>
+          <button class="cancel">Cancel Order</button>
+        </div>
       </div>
     </div>
+
+    <p class="dev">
+      Coded by
+      <a href="https://romainub87.github.io/Romain" class="lien-dev"
+        >Romain Cordier</a
+      >
+    </p>
+    <p class="challenge">
+      Challenge by
+      <a
+        class="lien-frontend-mentor"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >
+    </p>
   </body>
 </html>

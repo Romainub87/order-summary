@@ -5,19 +5,16 @@ body {
   background-size: cover;
   font-family: Red Hat Display;
 }
-
 body .dev {
   color: #1f2f56;
   margin-left: 15px;
   font-weight: bold;
   letter-spacing: 1px;
 }
-
 body .dev .lien-dev {
   text-decoration: none;
   color: #1f2f56;
 }
-
 body .challenge {
   position: absolute;
   color: #1f2f56;
@@ -27,12 +24,10 @@ body .challenge {
   font-weight: bold;
   letter-spacing: 1px;
 }
-
 body .challenge .lien-frontend-mentor {
   text-decoration: none;
   color: #1f2f56;
 }
-
 body .content {
   display: flex;
   flex-direction: column;
@@ -45,31 +40,26 @@ body .content {
   background-color: white;
   border-radius: 15px;
 }
-
 @media screen and (max-width: 1200px) {
   body .content {
     width: 45vw;
   }
 }
-
 @media screen and (max-width: 850px) {
   body .content {
     width: 60vw;
   }
 }
-
 @media screen and (max-width: 550px) {
   body .content {
     width: 90vw;
   }
 }
-
 body .content .img-content {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   height: 32%;
 }
-
 body .content .under-img {
   height: 68%;
   display: flex;
@@ -79,20 +69,17 @@ body .content .under-img {
   margin-bottom: 20px;
   margin-top: 40px;
 }
-
 @media screen and (max-width: 768px) {
   body .content .under-img {
     margin: 30px;
     margin-bottom: 18px;
   }
 }
-
 body .content .under-img .title {
   font-size: 25px;
   letter-spacing: 1px;
   font-weight: bolder;
 }
-
 body .content .under-img .text {
   font-size: 16px;
   margin-top: 15px;
@@ -100,7 +87,6 @@ body .content .under-img .text {
   font-weight: 700;
   line-height: 1.5;
 }
-
 body .content .under-img .article {
   display: flex;
   align-items: center;
@@ -110,43 +96,35 @@ body .content .under-img .article {
   background-color: #f5f7ff;
   border-radius: 10px;
 }
-
 body .content .under-img .article .img-text {
   display: flex;
   align-items: center;
 }
-
 body .content .under-img .article .img-text .text-article {
   display: flex;
   flex-direction: column;
   margin-left: 10px;
 }
-
 body .content .under-img .article .img-text .text-article .annual {
   font-weight: bold;
 }
-
 body .content .under-img .article .img-text .text-article .price {
   color: #7280a7;
   font-weight: 500;
 }
-
 body .content .under-img .article .change {
   font-weight: bold;
   font-size: 14px;
 }
-
 body .content .under-img .article .change:hover {
   text-decoration: none;
   color: rgba(56, 41, 224, 0.7);
 }
-
 body .content .under-img .boutons {
   display: flex;
   flex-direction: column;
   margin-top: 25px;
 }
-
 body .content .under-img .boutons .bouton-pay {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -159,12 +137,10 @@ body .content .under-img .boutons .bouton-pay {
   background-color: #3829e0;
   box-shadow: 0px 15px 10px rgba(49, 48, 48, 0.2);
 }
-
 body .content .under-img .boutons .bouton-pay:hover {
   cursor: pointer;
   background-color: rgba(56, 41, 224, 0.8);
 }
-
 body .content .under-img .boutons .cancel {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -175,7 +151,6 @@ body .content .under-img .boutons .cancel {
   margin-top: 10px;
   margin: 0;
 }
-
 body .content .under-img .boutons .cancel:hover {
   color: black;
   cursor: pointer;
